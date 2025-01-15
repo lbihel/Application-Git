@@ -1,9 +1,9 @@
 from dash import html, register_page
 
-register_page(__name__, name='Page 2')
+register_page(__name__, name='Analyse temporelle')
 
 layout = html.Div([
 
-    html.P('Content of page 2')
+    html.P('Content of page 1')
 
 ])
